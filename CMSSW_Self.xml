@@ -26,6 +26,8 @@
  </client>
  <runtime name="CMSSW_BASE"            value="$LOCALTOP"/>
  <runtime name="CMSSW_RELEASE_BASE"    value="$RELEASETOP"/>
+ <runtime name="ROOT_INCLUDE_PATH"     value="$LOCALTOP/src"                         type="path"/>
+ <runtime name="ROOT_INCLUDE_PATH"     value="$RELEASETOP/src"                       type="path"/>
  <runtime name="LOCALRT"               value="$LOCALTOP"/>
  <runtime name="CMSSW_VERSION"         value="$SCRAM_PROJECTVERSION"/>
  <runtime name="LD_LIBRARY_PATH"       value="$LOCALTOP/lib/$SCRAM_ARCH"             type="path"/>
