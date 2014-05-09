@@ -1897,7 +1897,7 @@ sub dict_template()
   if(scalar(@$x)>0)
   {
     $self->pushstash();
-    $self->lcgdict_template();
+    #$self->lcgdict_template();
     $self->popstash();
   }
   else{$self->rootmap($self->get("rootmap"));}
